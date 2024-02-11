@@ -1,0 +1,24 @@
+/* .home_data{
+    grid-template-columns: 116px repeat(2,1fr);
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+} */
+.wave_img{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+.send_img{
+    width: 30px;
+    height: 30px; 
+}
+.hello_btn{
+    text-decoration: none;
+background-color: black;
+color: white;
+padding: 12px;
+border-radius: 15px;
+margin-right: 3px;
+}

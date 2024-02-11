@@ -1,11 +1,9 @@
 import React from 'react'
 
-export default function Projects() {
+export default function Skills() {
   return (
     <div>
-    <p>projects</p>  
+     <p>Skills here</p> 
     </div>
   )
 }
-
-

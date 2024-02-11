@@ -24,16 +24,20 @@ export default function Navbar() {
           <div className="collapse navbar-collapse nav justify-content-end " id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="#">Home</Link>
+                <Link className="nav-link" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="#">Projects</Link>
+                <Link className="nav-link" to="/about">About Me</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="about">About Me</Link>
+                <Link className="nav-link" to="/skills">Skills</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">Contact Me</Link>
+                <Link className="nav-link" aria-current="page" to="/projects">Projects</Link>
+              </li>
+             
+              <li className="nav-item">
+                <Link className="nav-link" to="contact">Contact Me</Link>
               </li>
 
             </ul>

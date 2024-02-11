@@ -1,0 +1,22 @@
+.home_social{
+    display: grid;
+    grid-template-columns: max-content;
+    row-gap: 1rem;
+    justify-content: center;
+    margin-top: 12px;
+    margin-left: 48px;
+
+}
+.home_social-icon{
+    font-size: 1.35rem;
+    color: rgba(25, 25, 25, 0.775);
+    transition: transform .3s;
+}
+.home_social-icon:hover{
+   color: black;
+   transform: scale(1.2);
+}
+.linke_img{
+    width: 25px;
+    height: 25px;
+}
